@@ -11,7 +11,7 @@ int main() {
     printf("Edad del cliente: ");
     scanf("%d", &edad);
 
-    // 1. Seleccion de costo por tratamiento
+    // Seleccion de costo por tratamiento
     switch(tipo) {
         case 1: costo_dia = 2800; break;
         case 2: costo_dia = 1950; break;
@@ -24,7 +24,7 @@ int main() {
 
     subtotal = costo_dia * dias;
 
-    // 2. Logica de descuentos (El "Default" es desc = 0)
+    //descuentos
     if (edad > 60) {
         desc = 0.25;
         printf("Aplica descuento de Adulto Mayor (25%%)\n");
@@ -33,7 +33,7 @@ int main() {
         desc = 0.15;
         printf("Aplica descuento Juvenil (15%%)\n");
     }
-    // Si no entra en ninguno, desc se queda en 0 (el default del diagrama)
+    // exepcion por si no aplica el descuento
 
     total = subtotal - (subtotal * desc);
 

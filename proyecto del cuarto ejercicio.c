@@ -30,7 +30,7 @@ int main() {
     printf("\nResultado Lado Izquierdo: %.4f", lado_izq);
     printf("\nResultado Lado Derecho: %.4f\n", lado_der);
 
-    // El Rombo: Comprobacion de igualdad
+    //Comprobacion de igualdad
     if (lado_izq == lado_der) {
         printf("\nRESULTADO: La igualdad se cumple.\n");
     } else {

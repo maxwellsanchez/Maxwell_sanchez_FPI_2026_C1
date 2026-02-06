@@ -13,7 +13,7 @@ int main() {
     printf("Salario actual: ");
     scanf("%f", &SAL);
 
-    // Evaluamos con una sola condicion logica grande
+    // condicion logica
     if (((CAT == 3 || CAT == 4) && ANT > 5) || (CAT == 2 && ANT > 7)) {
         printf("\n--- RESULTADO ---\n");
         printf("El trabajador con clave %d REUNE las condiciones para el puesto.\n", CLA);

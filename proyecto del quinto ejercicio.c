@@ -30,7 +30,7 @@ int main() {
         X = 0;
     }
 
-    // Imprimir resultados
+    // Impresion
     printf("\nValor de Y: %d", Y);
     printf("\nValor de X (F(Y)): %.2f\n", X);
 
