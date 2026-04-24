@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1777064482 source:c:\users\dell\desktop\problemas del capitulo 2 del libro de programacion\tarea 6\9.20\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+

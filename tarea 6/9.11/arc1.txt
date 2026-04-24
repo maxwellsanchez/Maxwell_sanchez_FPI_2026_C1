@@ -1,0 +1,6 @@
+scanf 
+Estudiante 
+Telecomunicaciones
+ITLA
+C
+Programacion
